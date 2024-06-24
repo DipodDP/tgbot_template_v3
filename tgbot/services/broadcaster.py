@@ -9,7 +9,7 @@ from aiogram.types import InlineKeyboardMarkup
 
 async def send_message(
     bot: Bot,
-    user_id: Union[int, str],
+    user_id: int,
     text: str,
     disable_notification: bool = False,
     reply_markup: InlineKeyboardMarkup = None,
@@ -53,7 +53,7 @@ async def send_message(
 
 async def broadcast(
     bot: Bot,
-    users: list[Union[str, int]],
+    users: list[int],
     text: str,
     disable_notification: bool = False,
     reply_markup: InlineKeyboardMarkup = None,
