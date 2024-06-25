@@ -67,3 +67,6 @@ async def main():
 
 ### aiogram v3 Tutorials
 There are no videos yet, but @Groosha has already started making [his guide](https://mastergroosha.github.io/aiogram-3-guide).
+
+### Running on [PythonAnywhere](https://pythonanywhere.com) Free Account
+There is a `background.py` file that contains a small `Flask` application. This application allows you to keep the bot online with a web interface. It starts the bot process if it is down by accessing a URL from daily tasks or manually.
